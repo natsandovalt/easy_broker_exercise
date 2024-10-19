@@ -1,0 +1,1 @@
+class FormatNotSupported < StandardError; end

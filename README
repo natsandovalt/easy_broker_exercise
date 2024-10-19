@@ -1,0 +1,24 @@
+# EasyBroker API consumer application
+
+Application that retrieves all the properties from the EasyBroker Api and generates an output file.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+
+## Installation
+
+1. Install bundler with 'gem install bundler'
+2. Install dependencies with 'bundle install'
+
+## Usage
+
+1. You can run the program via the command using the following command: 'bin/properties'
+2. Additionally you can pass an argument to specify the desired file format: 'csv' or 'txt' (default)
+3. You can find the api_key for staging on their website: [text](https://dev.easybroker.com/docs/autenticaci%C3%B3n)
+
+## Testing
+
+1. You can test the project by running 'bundle exec rspec spec/lib'

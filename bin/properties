@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+Bundler.require(:default)
+
+require_relative '../config/initializers/easy_broker'
+require_relative '../lib/broker/properties'
+
+argument = ARGV[0]
+
+Broker::Properties.run(argument)

@@ -1,0 +1,8 @@
+*.gem
+.bundle/
+log/
+tmp/
+.env
+.DS_Store
+*.txt
+*.csv
